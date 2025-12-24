@@ -2,13 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Search, Moon, Sun } from "lucide-react";
 import { searchSections } from "../data/sectionsData";
 import "../styles/Header.css";
+import logoImg from '../assets/logo.png'
 
 // ===== SUB-COMPONENTS =====
 
 const Logo = () => (
   <div className="logo-section">
     <img 
-      src="https://framerusercontent.com/images/Z1KoPu1SsDcyVhvDMDJrBs7Dl7Y.svg?width=318&height=275" 
+      src={logoImg} 
       alt="Acepyr Logo" 
       className="logo-img" 
     />
